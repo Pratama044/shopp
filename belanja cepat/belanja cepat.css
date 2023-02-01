@@ -1,0 +1,79 @@
+.belanja-cepat .judul{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 999999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.216);
+    
+}
+
+.belanja-cepat .judul h1{
+    padding-top: 1.5rem;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.bawah{
+    padding-top: 5.5rem;
+}
+.belanja-cepat .container h2{
+    padding: 1rem .5rem;
+
+}
+.search-container{
+    position: relative;
+    z-index: 1;
+}
+.belanja-cepat .container .row .col{
+    margin: 1rem auto;
+    padding: 0 1.4rem;
+    
+    
+}
+.belanja-cepat .container .col .top{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.223);
+}
+.belanja-cepat .container .row .col a{
+    text-decoration: none;
+    
+    color: black;
+    
+
+}
+.belanja-cepat .container .row .col a img{
+    height: 170px;
+    object-fit: cover;
+}
+.belanja-cepat .container .row .col a .button{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.bawah{
+    padding-bottom: 2rem;
+}
+/* bagian tentang */
+.tentang{
+    border-top: 10px solid rgb(236, 236, 236);
+    padding: 2rem 1.4rem;
+}
+.tentang h3{
+    font-weight: bold;
+}
+.tentang a{
+    font-size: 13px;
+    margin-top: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    padding-bottom: 5rem;
+}
+@media (min-width: 576px){
+    .belanja-cepat .judul{
+        width: 576px;
+    }
+}

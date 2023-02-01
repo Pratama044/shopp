@@ -1,0 +1,150 @@
+*{
+    border: none;
+}
+body{
+}
+.toko-resmi{
+    padding-top: 2rem;
+
+}
+.top-up{
+
+    text-align: center;
+}
+.top-up h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.top-up .btn1{
+    padding-top: 1rem;
+    display: flex;
+}
+.top-up .btn1 button{
+    color: rgb(64, 154, 218);
+    font-size: 12px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(189, 187, 187);
+    
+}
+.topup .top-up .btn1 button:nth-child(1):before{
+    display: ;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(64, 154, 218);
+}
+.voucher .toko-resmi .top-up .btn1 button:nth-child(2):before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(64, 154, 218);
+} 
+.toko-resmi .top-up span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top
+    height: 3px;
+    width: 50%;
+    background-color: rgb(64, 154, 218);
+}
+.toko-resmi .row{
+    width: 100%;
+    margin: 0 auto;
+
+}.toko-resmi .row .col img{
+    width: 100%;
+    justify-content: start;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    height: 100px;
+
+}
+.toko-resmi .row .col .top{
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.223);
+}
+.toko-resmi .row .col{
+    margin: 1rem 0;
+    gap: ;
+    
+    
+}
+.toko-resmi .row .col p{
+    margin-left: 1rem;
+    font-size: 12px;
+    
+    padding-bottom: 1rem;
+}
+.toko-resmi .row .col p span{
+    font-weight: bold;
+}
+.voucher{
+    display: none;
+}
+.toko-resmi:nth-child(2){
+    border-bottom: 10px solid rgb(236, 236, 236);border-bottom: 10px solid rgb(236, 236, 236);
+}
+.tentang{
+    padding: 1rem 1.4rem;
+    margin-top: .5rem;
+    width: 100%;
+    border-bottom: 10px solid rgb(236, 236, 236);
+}
+.tentang a{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.tentang a p{
+    float: right;
+}
+.tentang a i{
+    float: right;
+}
+.footer-tokoresmi .row{
+    display: block;
+
+}
+.footer-tokoresmi{
+    padding-top: 3rem;
+    margin: 0 .4rem;
+    padding-bottom: 6rem;
+}
+.footer-tokoresmi .row .col{
+    line-height: 1.2;
+    justify-content: space-around;
+}
+.footer-tokoresmi .row .col h3{
+    font-size: 11px;
+    font-weight: bold;
+}
+.footer-tokoresmi .row .col p{
+    text-align: justify;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.747);
+}
+@media (max-width: 576px){
+    .toko-resmi .row{
+        margin: auto;
+        width: 70%;
+    }
+}
+@media (min-width: 576px){
+    .toko-resmi .row .col{
+        width: 50%;
+    }
+
+}

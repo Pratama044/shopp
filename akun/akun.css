@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.akun .top-nav a{
+    margin-right: .5rem;
+    color: white;
+    float: right;
+    padding: .5rem;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.192);
+}
+.akun .top-nav a:nth-child(3){
+    position: relative;
+}
+.akun .top-nav a:nth-child(3)::before{
+    content: '1';
+    position: absolute;
+    background-color: red;
+    right: 0;
+    font-size: 12px;
+    top: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: auto 0;
+}
+.akun{
+    margin-bottom: 5rem;
+    background-size: cover;
+    padding-top: 1rem;
+    background-color: rgb(62, 197, 255);
+    border-radius: 0 0 40px 40px;
+}
+.akun .logo-edi{
+    padding-top: 8rem;
+    margin: auto;
+    text-align: center;
+
+}
+.akun .logo-edi img{
+    border: 1px solid rgb(2, 2, 2);
+    box-shadow:  0 0 5px rgba(0, 0, 0, 0.192);
+    border-radius: 50%;
+    width: 100px;
+}
+.akun .logo-edi .nama{
+    padding-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.akun .logo-edi .nama h1{
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.192);
+    margin: 2px 1px;
+    cursor: pointer;
+    font-family: 'Fredoka One';
+}
+h1:nth-child(2){
+    color: white;
+}
+h1:nth-child(3){
+    margin-right: .5rem;
+}
+h1:nth-child(4){
+    color: white;
+}
+h1:nth-child(6){
+    color: white;
+    padding-right: .5rem;
+}
+h1:nth-child(8){
+    color: white;
+}
+h1:nth-child(10){
+    color: white;
+}
+h1:nth-child(12){
+    color: white;
+}
+h1:nth-child(1):hover,
+h1:nth-child(2):hover,
+h1:nth-child(3):hover,
+h1:nth-child(4):hover,
+h1:nth-child(5):hover,
+h1:nth-child(6):hover,
+h1:nth-child(7):hover,
+h1:nth-child(8):hover,
+h1:nth-child(9):hover,
+h1:nth-child(10):hover,
+h1:nth-child(11):hover,
+h1:nth-child(12):hover,
+h1:nth-child(13):hover{
+    animation: squeeze3124 0.9s both;
+}
+@keyframes squeeze3124 {
+    0% {
+     -webkit-transform: scale3d(1, 1, 1);
+     transform: scale3d(1, 1, 1);
+    }
+   
+    30% {
+     -webkit-transform: scale3d(1.25, 0.75, 1);
+     transform: scale3d(1.25, 0.75, 1);
+    }
+   
+    40% {
+     -webkit-transform: scale3d(0.75, 1.25, 1);
+     transform: scale3d(0.75, 1.25, 1);
+    }
+   
+    50% {
+     -webkit-transform: scale3d(1.15, 0.85, 1);
+     transform: scale3d(1.15, 0.85, 1);
+    }
+   
+    65% {
+     -webkit-transform: scale3d(0.95, 1.05, 1);
+     transform: scale3d(0.95, 1.05, 1);
+    }
+   
+    75% {
+     -webkit-transform: scale3d(1.05, 0.95, 1);
+     transform: scale3d(1.05, 0.95, 1);
+    }
+   
+    100% {
+     -webkit-transform: scale3d(1, 1, 1);
+     transform: scale3d(1, 1, 1);
+    }
+}
+.akun .icon{
+    position: relative;
+    top: 1.2rem;
+    padding: .7rem 0;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    box-shadow:  0 0 5px rgba(0, 0, 0, 0.192);
+    border-radius: 10px;
+}
+.akun .icon a{
+    margin: 0 1rem;
+    font-size: 24px;
+    color: black;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.192);
+
+}
+.akun .pesan{
+    
+}
